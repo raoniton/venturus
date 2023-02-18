@@ -1,3 +1,5 @@
+
+
 /**
 Imagine que você tenha um comércio local e esteja totalmente perdido 
 sobre as contas do negócio. Sendo assim resolve fazer um programa 
@@ -31,9 +33,9 @@ programa {
   }
   
   funcao inicio() {
-    real precoCompra[5], precoVenda[5], lucro[5]
+    real precoCompra[5], precoVenda[5], lucro[5], precoTotalDeVenda=0, precoTotalDeCompra=0, lucroTotal=0
     cadeia nome[5]
-    inteiro i, tam = 4
+    inteiro i, tam = 3
 
     para(i=0; i < tam; i++){
       escreva("COD-",i,"\n")
@@ -47,7 +49,10 @@ programa {
       leia(precoCompra[i])
 
       lucro[i] = ((precoVenda[i] - precoCompra[i]) / precoVenda[i])*100
-      //escreva(lucro[i],"\n")
+      escreva(lucro[i],"\n")
+
+      precoTotalDeCompra = precoTotalDeCompra + precoCompra[i]
+      precoTotalDeVenda = precoTotalDeVenda + precoVenda[i]
 
     }
 
@@ -59,6 +64,9 @@ programa {
 
     escreva("\nProdutos com Lucro > 20%: \n")
     calculaLucro(nome, lucro, 3, tam)
+    
+    escreva("\nPreco Total de Compra: R$", precoTotalDeCompra, " - Preco Total de Venda: R$", precoTotalDeVenda,"\n")
+    escreva("Lucro Total: ", ((precoTotalDeVenda - precoTotalDeCompra) / precoTotalDeVenda)*100, "%")
 
   }
 }
