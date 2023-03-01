@@ -24,5 +24,14 @@
       │      └── jogo_da_velha       <- DESAFIO: Jogo da Velha
       │  
       └── java                       <- Pasta da 2ª parte do curso
+      │      ├── exercicios_aula01   <- Introdução, Hello World!
+      │      ├── exercicios_aula02   <- Conhecendo o ambiente e IDE Java
+      │      ├── exercicios_aula03   <- Estrutura Sequencial - tipos primitivos, entrada e saída
+      │      ├── exercicios_aula04   <- Atividades em relação a aula03
+      │      ├── exercicios_aula05   <- Estrutura Sequencial - tipos de atribuicao e operador ternario
+      │      └── exercicios_aula06   <- Atividades em relação a aula05
+      │
+      └──———————————————————————————————————————————————————————————————————————
+      
 
 ~~~
