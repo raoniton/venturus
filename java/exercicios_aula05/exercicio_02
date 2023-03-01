@@ -1,0 +1,21 @@
+Exercício 2
+Responda se verificação é True ou False:
+a) verificacao = 10 == 10 && 10 == 20; 
+b) verificacao = 11 == 12 && 20 == 20; 
+c) verificacao = 15 == 15 && 16 == 16; 
+d) verificacao = 12 == 11 && 23 == 24; 
+e) verificacao = 10 == 10 || 10 == 20; 
+f) verificacao = 11 == 12 || 20 == 20; 
+g) verificacao = 15 == 15 || 16 == 16; 
+h) verificacao = 12 == 11 || 23 == 24;
+
+
+resposta:
+a) False
+b) False
+c) True
+d) False
+e) True
+f) True
+g) True
+h) False
