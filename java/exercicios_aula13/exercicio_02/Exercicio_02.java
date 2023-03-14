@@ -30,7 +30,10 @@ public class Exercicio_02 {
         cand2.vagaDeseja = 2;
         
         System.out.println(cand1);
+        System.out.println(cand1.enviarTeste());
+        
         System.out.println(cand2);
+        System.out.println(cand2.enviarTeste());
         
         
         

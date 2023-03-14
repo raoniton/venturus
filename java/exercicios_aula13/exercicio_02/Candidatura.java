@@ -31,10 +31,16 @@ public class Candidatura {
         String cand;
         cand = "CANDIDATO:\nNome: "+this.nome
                 + "\nVaga: "+this.vaga()
-                + "\nSalario Pretendido: R$" + this.salarioPretendido
-                + "\nDeve realizar: Teste " +this.vaga()
-                + "\n-----------------";
+                + "\nSalario Pretendido: R$" + this.salarioPretendido                
+                + "\n-------------------------------";
                 
         return cand;
     }
+    
+    public String enviarTeste(){
+        return "Deve realizar: Teste " +this.vaga()
+        + "\n-------------------------------\n";
+    }
+    
+    
 }
